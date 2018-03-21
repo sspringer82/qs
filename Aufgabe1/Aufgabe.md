@@ -16,3 +16,5 @@ Es soll drei Schwierigkeitsgrade geben:
 Der Schwierigkeitsgrad wird im Programmcode anhand einer Variablen festgelegt
 
 Am Ende soll dem Benutzer angezeigt werden, wie viele Aufgaben er korrekt gelöst hat.
+
+Zufallszahl von 1 bis 10: `Math.floor(Math.random() * 10) + 1;`

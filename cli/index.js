@@ -10,6 +10,7 @@ const questions = ['a', 'b'];
 function ask(questions) {
   if (questions.length <= 0) {
     rl.close();
+    return;
   }
 
   const q = questions.shift();
