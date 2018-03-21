@@ -1,7 +1,7 @@
-const http = require('http');
-const myModule = require('./module');
+import http from 'http';
+import { server } from './module';
 
-http.createServer(myModule.server).listen(8080, () => {
+http.createServer(server).listen(8080, () => {
   console.log('Server is really listening');
 });
 
