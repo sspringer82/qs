@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-const questions = ['a', 'b'];
+const questions = ['1 + 1 = ', '2 + 2 = '];
 
 function ask(questions) {
   if (questions.length <= 0) {
